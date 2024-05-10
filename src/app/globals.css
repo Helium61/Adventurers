@@ -31,3 +31,48 @@ body {
     text-wrap: balance;
   }
 }
+.header-bg {
+  background-image: url('/photo-1464822759023-fed622ff2c3b.avif');
+  background-size: cover;
+  background-position: center; 
+  /* filter: blur(1px); */
+  height: 600px;
+}
+.header-bg2 {
+  background-image: url('/services-3.jpg');
+  background-size: cover;
+  background-position: center; 
+  /* filter: blur(1px); */
+  height: 600px;
+}
+.box-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  /* height: 100vh;  */
+  overflow: hidden; /* Ensures content doesn't overflow */
+}
+
+.box {
+  /* border: 2px solid #000; */
+  width: 100%; /* Adjusts to the width of the container */
+  max-width: 800px; /* Sets maximum width */
+  height: auto; /* Allows the height to adjust based on content */
+  display: flex;
+  flex-direction: column; /* Adjusts layout to column for mobile */
+  margin: 0 10px; /* Adds margin to the sides */
+}
+
+.top-part, .bottom-part {
+  text-align: start;
+  padding: 10px;
+}
+
+.top-part {
+  flex: 50%;
+}
+
+.bottom-part {
+  flex: 50%;
+}
+
